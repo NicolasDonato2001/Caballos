@@ -1,0 +1,19 @@
+{
+  "_fuente": "GDD v0.2 §14 (Fase 9): clanes y guerras.",
+  "maxMiembros": 30,
+  "maxOficiales": 3,
+  "nombre": { "minimo": 3, "maximo": 24 },
+  "representantes": 4,
+  "minMiembrosGuerra": 1,
+  "_minMiembros": "El GDD pide 4 representantes; con menos, los lugares vacíos los completan bots que no suman puntos. Mínimo configurable para poder probar con pocos jugadores.",
+  "carreras": 3,
+  "participantesPorCarrera": 8,
+  "duracionHoras": 48,
+  "cierreCarrerasHoras": [16, 32, 48],
+  "_cierre": "Cada carrera cierra a esa hora desde el inicio de la guerra; corre antes si ya se anotaron todos los representantes de los dos clanes. El que no anotó caballo corre con su mejor caballo listo.",
+  "puntos": [8, 6, 5, 4, 3, 2, 1, 0],
+  "elo": { "inicial": 1000, "k": 32 },
+  "emparejamiento": { "ventana": 150, "ventanaMax": 400, "abrirEnMin": 30 },
+  "premios": { "participacion": 250, "victoria": 250 },
+  "_premios": "250 Oro por participante y 250 más para cada participante del clan ganador. No cuentan para el límite diario."
+}

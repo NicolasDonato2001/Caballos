@@ -1,0 +1,41 @@
+CABALLOS - COMO ABRIR EL JUEGO
+==============================
+
+Hace doble clic en el archivo que necesites:
+
+1 - ABRIR EL JUEGO.bat
+    Para jugar en tu compu. Abre el servidor (minimizado) y el juego
+    en el navegador, en http://localhost:5173
+    Sirve para jugar sin cuenta, con cuenta y para probar.
+
+2 - ABRIR SOLO EL SERVIDOR.bat
+    Solo el servidor del juego (cuentas, partidas y carreras online).
+    Casi nunca hace falta: el 1 y el 3 ya lo abren solos.
+
+3 - JUGAR ONLINE CON AMIGOS.bat
+    Para jugar con amigos, cada uno desde su casa.
+    - Arma el juego, abre el servidor y crea un tunel de Cloudflare.
+    - En la ventana principal aparece, en grande, una direccion que
+      termina en .trycloudflare.com y queda copiada: pegasela a tus
+      amigos con Ctrl + V. ESA es la de ellos.
+    - Vos jugas en http://127.0.0.1:8787, que SOLO funciona en tu compu:
+      no se la pases a nadie.
+    - Cada uno crea su cuenta y va a Carreras:
+        Online casual: desde 2 jugadores (ideal para vos y un amigo).
+        Ranked: hacen falta 4 jugadores; suma o resta rating.
+    - La direccion cambia cada vez y cualquiera que la tenga puede
+      entrar: pasala solo a tus amigos y cerra todo al terminar.
+    - Antes de usarlo, cerra el juego si lo tenias abierto con el 1.
+
+4 - DAR ORO Y GEMAS.bat
+    Herramienta de pruebas: deja a un usuario (por ejemplo NICO o
+    LUCIANO) con el Oro y las Gemas que escribas. Despues, F5 en el juego.
+
+5 - DAR CABALLOS DE LINAJE RARO.bat
+    Herramienta de pruebas: le da a un usuario caballos de linaje raro
+    (Dorado del Desierto, Barroco Azabache, Relampago, Overo de la Pampa),
+    macho, hembra o uno de cada. Si no entran, agranda el establo.
+
+Para cerrar cualquiera: Ctrl + C en sus ventanas, o cerrarlas.
+
+Si falta Node.js, el archivo te avisa: se baja de https://nodejs.org

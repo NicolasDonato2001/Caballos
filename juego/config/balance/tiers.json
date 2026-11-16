@@ -1,0 +1,18 @@
+{
+  "_doc": "Tiers de caballos (GDD §24.3). El índice es cuánto más rápido (en %) es el caballo que uno de 60 en todo, promediando 500 m y 1.500 m con la tabla de regresion.json. Medido: la IA sin entrenar va de 1,2 a 3,5 (mediana 2,4); el Criollo inicial 1,8; genética 345 sin entrenar 3,9; suma 360 sin entrenar 5,3–5,6; todo en 90, 11.",
+  "referencia": [60, 60, 60, 60, 60],
+  "tiers": [
+    { "id": "bronce", "nombre": "Bronce", "desde": -99, "color": "#a8703f" },
+    { "id": "plata", "nombre": "Plata", "desde": 2.5, "color": "#9aa3ab" },
+    { "id": "oro", "nombre": "Oro", "desde": 4.0, "color": "#c9a23a" },
+    { "id": "platino", "nombre": "Platino", "desde": 5.5, "color": "#6fa6a8" },
+    { "id": "diamante", "nombre": "Diamante", "desde": 7.0, "color": "#6f8fd8" }
+  ],
+  "rivales": {
+    "_doc": "Los rivales de la IA salen del mismo tier, con un índice cerca del tuyo (± margen). En el campeonato, algo más fuertes.",
+    "margen": 1.5,
+    "minimoBronce": 0.5,
+    "maximoDiamante": 10.5,
+    "campeonatoArriba": 0.6
+  }
+}

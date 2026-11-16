@@ -1,0 +1,22 @@
+{
+  "_doc": "Mercado del juego (GDD v0.2 §12.1, §12.2, §11.5). Cuatro ofertas que rotan cada día a las 00:00 locales. El precio sugerido (§12.2) está en economia.json.",
+  "ofertas": [
+    {
+      "tipo": "basica",
+      "suma": 300
+    },
+    {
+      "tipo": "basica",
+      "suma": 300
+    },
+    {
+      "tipo": "especializada",
+      "suma": 325
+    },
+    {
+      "tipo": "destacada",
+      "suma": 345
+    }
+  ],
+  "variacionSuma": 4
+}

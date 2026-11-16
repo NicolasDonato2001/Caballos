@@ -1,0 +1,47 @@
+CABALLOS - COMO ABRIR EL JUEGO (modo normal, sin servidor)
+==========================================================
+
+Con esto jugas solo, en esta compu. La partida se guarda en el navegador.
+(Para jugar online o con cuenta, mira el otro TXT: COMO_ABRIR_EL_JUEGO_Y_EL_SERVIDOR.txt)
+
+
+1. Abri una ventana de comandos
+-------------------------------
+Tecla Windows -> escribi  cmd  -> Enter
+
+
+2. Pega estos dos comandos (uno por uno, Enter despues de cada uno)
+--------------------------------------------------------------------
+cd C:\Users\nicol\OneDrive\Desktop\Caballos\juego
+npm run dev
+
+Tiene que aparecer algo como:
+  VITE ...  ready in ... ms
+  Local:   http://localhost:5173/
+
+
+3. Abri el juego en el navegador
+--------------------------------
+http://localhost:5173
+
+Partida de prueba aparte (no toca la tuya):
+http://localhost:5173/?partida=prueba
+
+Lamina para revisar los modelos de los caballos:
+http://localhost:5173/lamina.html
+
+
+4. Para cerrar
+--------------
+En la ventana de comandos: Ctrl + C (y si pregunta, S o Y).
+No cierres la ventana mientras estas jugando: si la cerras, el juego deja de andar.
+
+
+SI ALGO FALLA
+-------------
+- "npm no se reconoce como comando": falta instalar Node.js (nodejs.org, version LTS).
+- "Port 5173 is already in use": ya hay otra ventana con el juego abierta. Usa esa, o cerrala con Ctrl + C.
+- Si aparece un error de modulos que faltan, corre una vez:
+    cd C:\Users\nicol\OneDrive\Desktop\Caballos\juego
+    npm install
+  y despues de nuevo  npm run dev

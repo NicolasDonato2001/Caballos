@@ -1,0 +1,55 @@
+CABALLOS - COMO ABRIR EL JUEGO Y EL SERVIDOR
+=============================================
+
+Hacen falta DOS ventanas de comandos (cmd) abiertas al mismo tiempo.
+No cierres ninguna mientras juegas.
+
+
+VENTANA 1 - EL SERVIDOR (cuentas, partidas y carreras online)
+-------------------------------------------------------------
+cd C:\Users\nicol\OneDrive\Desktop\Caballos\juego
+npm run servidor
+
+Tiene que aparecer:
+[caballos] servidor en http://127.0.0.1:8787
+
+(Si aparece "ExperimentalWarning: SQLite is an experimental feature", es normal.)
+
+
+VENTANA 2 - EL JUEGO
+--------------------
+Para jugar solo en esta compu:
+
+cd C:\Users\nicol\OneDrive\Desktop\Caballos\juego
+npm run dev
+
+Despues abri en el navegador:  http://localhost:5173
+
+
+Para jugar con amigos en el MISMO Wi-Fi (en lugar de "npm run dev"):
+
+cd C:\Users\nicol\OneDrive\Desktop\Caballos\juego
+npm run red
+
+Vite muestra una linea "Network: http://192.168.x.x:5173".
+Tus amigos abren ESA direccion en su navegador.
+Si Windows pregunta si Node puede usar la red, elegi "Redes privadas".
+
+
+DENTRO DEL JUEGO
+----------------
+1. En el campo, arriba: "Crear cuenta o entrar".
+2. Cada jugador crea su propia cuenta (usuario + contrasena de 8 letras o mas).
+3. Carreras -> modo "Online" -> "Buscar carrera online".
+4. Cuando se arma la carrera tienen 20 segundos para elegir caballo y estrategia.
+
+
+PARA CERRAR
+-----------
+En cada ventana: Ctrl + C (y si pregunta, S o Y).
+
+
+DONDE SE GUARDAN LAS CUENTAS
+----------------------------
+C:\Users\nicol\OneDrive\Desktop\Caballos\juego\server\datos\caballos.db
+(No lo borres: ahi estan las cuentas y las partidas online.)

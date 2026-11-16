@@ -1,0 +1,137 @@
+{
+  "_doc": "Economía (GDD v0.2 §11). El día cambia a las 00:00 y la semana el lunes a las 00:00, hora local (en la Fase 7 lo decide el servidor).",
+  "limiteDiario": {
+    "carrerasCompletas": 15,
+    "fraccionReducida": 0.25,
+    "diasGuardados": 5,
+    "_diasGuardados": "7.5: cuántos días pasados se guarda el contador, para cobrar las carreras offline con el límite del día en que se corrieron."
+  },
+  "objetivos": [
+    {
+      "id": "carreras",
+      "texto": "Correr 25 carreras",
+      "meta": 25,
+      "oro": 500,
+      "gemas": 2
+    },
+    {
+      "id": "podios",
+      "texto": "Terminar 8 veces en el podio",
+      "meta": 8,
+      "oro": 500,
+      "gemas": 2
+    },
+    {
+      "id": "entrenamientos",
+      "texto": "Completar 10 entrenamientos",
+      "meta": 10,
+      "oro": 500,
+      "gemas": 1
+    }
+  ],
+  "aceleracion": {
+    "minutosPorGema": 30
+  },
+  "conversion": {
+    "oroPorGema": 100,
+    "gemasMaximasPorDia": 10
+  },
+  "monturas": {
+    "precioOro": 3000,
+    "precioGemas": 30,
+    "tipos": {
+      "sprint": {
+        "nombre": "Montura Sprint",
+        "bono": [
+          2,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "resistencia": {
+        "nombre": "Montura Resistencia",
+        "bono": [
+          0,
+          2,
+          0,
+          1,
+          0
+        ]
+      },
+      "tactica": {
+        "nombre": "Montura Táctica",
+        "bono": [
+          0,
+          0,
+          0,
+          1,
+          2
+        ]
+      }
+    }
+  },
+  "ventaAlJuego": {
+    "_doc": "Propuesta a calibrar: un 10 % del precio sugerido (§12.2), mínimo 100. Así criar para vender al juego no rinde más que correr.",
+    "fraccion": 0.1,
+    "minimo": 100,
+    "redondeo": 10
+  },
+  "precio": {
+    "base": 2500,
+    "factor": 1.035,
+    "sumaReferencia": 300,
+    "porPuntoEntreno": 60,
+    "porVictoria": 150,
+    "victoriasMaximas": 30,
+    "redondeo": 50
+  },
+  "ledgerMaximo": 300,
+  "entrada": {
+    "_doc": "Recompensa por entrar (pedido del usuario, §24.1): una por día; la racha sube de 1 a 7 y vuelve a 1 si se saltea un día. A calibrar.",
+    "oro": [
+      100,
+      150,
+      200,
+      250,
+      300,
+      400,
+      500
+    ],
+    "gemas": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  },
+  "paquetesGemas": {
+    "_doc": "§11.8, orientativos. El cobro con dinero real se habilita con servidor y tiendas (Fases 11 y 12).",
+    "lista": [
+      [
+        30,
+        "USD 0,99"
+      ],
+      [
+        80,
+        "USD 2,49"
+      ],
+      [
+        170,
+        "USD 4,99"
+      ],
+      [
+        360,
+        "USD 9,99"
+      ],
+      [
+        750,
+        "USD 19,99"
+      ]
+    ]
+  }
+}

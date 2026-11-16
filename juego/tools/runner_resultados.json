@@ -1,0 +1,113 @@
+{
+ "sens_500": {
+  "base": 0.1425,
+  "Vel": {
+   "win": 0.3325,
+   "seg": 0.43790689913382636
+  },
+  "Res": {
+   "win": 0.2425,
+   "seg": 0.2949074665153526
+  },
+  "Pot": {
+   "win": 0.355,
+   "seg": 0.4871192435234288
+  },
+  "Tem": {
+   "win": 0.1575,
+   "seg": 0.09111886662628407
+  },
+  "Int": {
+   "win": 0.2275,
+   "seg": 0.3033370201504397
+  }
+ },
+ "razas_500": {
+  "Pura Sangre": 0.21625,
+  "Árabe": 0.035,
+  "Cuarto de Milla": 0.24375,
+  "Akhal-Teke": 0.08375,
+  "Appaloosa": 0.10875,
+  "Criollo": 0.01125,
+  "Andaluz": 0.15,
+  "Frisón": 0.15125
+ },
+ "estrategias_500": {
+  "Velocista": {
+   "agresiva": 0.118,
+   "equilibrada": 0.136,
+   "conservadora": 0.121
+  },
+  "Fondista": {
+   "agresiva": 0.139,
+   "equilibrada": 0.142,
+   "conservadora": 0.094
+  },
+  "Táctico": {
+   "agresiva": 0.126,
+   "equilibrada": 0.142,
+   "conservadora": 0.107
+  },
+  "Equilibrado": {
+   "agresiva": 0.137,
+   "equilibrada": 0.139,
+   "conservadora": 0.099
+  }
+ },
+ "sens_1500": {
+  "base": 0.105,
+  "Vel": {
+   "win": 0.2425,
+   "seg": 0.6046497398759749
+  },
+  "Res": {
+   "win": 0.3425,
+   "seg": 1.0363596139008653
+  },
+  "Pot": {
+   "win": 0.1475,
+   "seg": 0.20305589906669608
+  },
+  "Tem": {
+   "win": 0.345,
+   "seg": 0.9587134452324009
+  },
+  "Int": {
+   "win": 0.225,
+   "seg": 0.4551734164988072
+  }
+ },
+ "razas_1500": {
+  "Pura Sangre": 0.0425,
+  "Árabe": 0.28375,
+  "Cuarto de Milla": 0.0175,
+  "Akhal-Teke": 0.1975,
+  "Appaloosa": 0.09875,
+  "Criollo": 0.275,
+  "Andaluz": 0.04625,
+  "Frisón": 0.03875
+ },
+ "estrategias_1500": {
+  "Velocista": {
+   "agresiva": 0.114,
+   "equilibrada": 0.123,
+   "conservadora": 0.139
+  },
+  "Fondista": {
+   "agresiva": 0.123,
+   "equilibrada": 0.118,
+   "conservadora": 0.134
+  },
+  "Táctico": {
+   "agresiva": 0.138,
+   "equilibrada": 0.105,
+   "conservadora": 0.131
+  },
+  "Equilibrado": {
+   "agresiva": 0.122,
+   "equilibrada": 0.127,
+   "conservadora": 0.126
+  }
+ },
+ "segundos": 99.559
+}

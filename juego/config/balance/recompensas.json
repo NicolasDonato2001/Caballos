@@ -1,0 +1,105 @@
+{
+  "_fuente": "GDD v0.2 §9.1, §11.2 y §11.3. Oro por posición: [1.º, 2.º, 3.º, resto]; en el campeonato, uno por puesto.",
+  "modos": {
+    "practica": {
+      "participantes": 6,
+      "oro500": [
+        95,
+        70,
+        50,
+        25
+      ],
+      "oro1500": [
+        125,
+        90,
+        65,
+        30
+      ]
+    },
+    "casual": {
+      "participantes": 8,
+      "oro500": [
+        160,
+        115,
+        80,
+        40
+      ],
+      "oro1500": [
+        210,
+        150,
+        105,
+        50
+      ]
+    },
+    "online": {
+      "_doc": "Fase 7.2: carrera contra otros jugadores (los bots completan hasta 8). Mismos premios que Casual (§11.2: los bots no cobran).",
+      "participantes": 8,
+      "oro500": [
+        160,
+        115,
+        80,
+        40
+      ],
+      "oro1500": [
+        210,
+        150,
+        105,
+        50
+      ]
+    },
+    "ranked": {
+      "_doc": "Fase 7.3: Ranked. Mismos premios que Casual (§11.2); cuenta para el límite diario.",
+      "participantes": 8,
+      "oro500": [
+        160,
+        115,
+        80,
+        40
+      ],
+      "oro1500": [
+        210,
+        150,
+        105,
+        50
+      ]
+    },
+    "guerra": {
+      "_doc": "Fase 9 (§14): las carreras de una guerra de clanes no pagan por puesto; el premio es por participar y por ganar la guerra (config/balance/clanes.json). No cuentan para el límite diario.",
+      "participantes": 8,
+      "oro500": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "oro1500": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "bonoTutorial": 1500,
+  "historialMaximo": 100,
+  "campeonato": {
+    "participantes": 12,
+    "inscripcion": 500,
+    "premios": [
+      3000,
+      2000,
+      1400,
+      800,
+      800,
+      800,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400
+    ],
+    "entrenoRivalesMaximo": 8,
+    "_doc": "Se juega el fin de semana (sábado y domingo, hora local), una inscripción por cuenta. No cuenta para el límite diario. Offline: los rivales son IA con algo de entrenamiento; en la Fase 7 se agrupa por rating."
+  }
+}

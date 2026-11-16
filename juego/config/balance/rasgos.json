@@ -1,0 +1,203 @@
+{
+  "_doc": "Fase 5.5 (GDD §24.3): rasgos visibles por cruza y linajes raros. Los rasgos solo cambian el aspecto; los linajes además suben el techo genético. Los efectos de forma son multiplicadores sobre el esqueleto y refuerzos de las formas de raza (morph targets).",
+  "probabilidadRasgoDeCruza": 0.7,
+  "probabilidadHeredarRasgo": 0.4,
+  "minimoSangreParaRasgo": 0.2,
+  "maximoRasgos": 3,
+  "rasgos": {
+    "cuelloCisne": {
+      "nombre": "Cuello de cisne",
+      "descripcion": "Cuello largo y arqueado",
+      "cuello": 0.2
+    },
+    "perfilConcavo": {
+      "nombre": "Perfil cóncavo",
+      "descripcion": "Cara fina y hundida, como el Árabe",
+      "morph": {
+        "Árabe": 0.9
+      }
+    },
+    "cabezaAcarnerada": {
+      "nombre": "Cabeza acarnerada",
+      "descripcion": "Perfil convexo, de estampa barroca",
+      "morph": {
+        "Andaluz": 0.9
+      }
+    },
+    "patasLargas": {
+      "nombre": "Patas largas y finas",
+      "descripcion": "Más alzada y remos largos",
+      "patas": 0.08,
+      "morph": {
+        "Akhal-Teke": 0.4
+      }
+    },
+    "cuerpoCompacto": {
+      "nombre": "Cuerpo compacto",
+      "descripcion": "Lomo corto y fuerte",
+      "cuerpo": -0.1,
+      "morph": {
+        "Criollo": 0.4
+      }
+    },
+    "grupaPotente": {
+      "nombre": "Grupa potente",
+      "descripcion": "Ancas musculosas de velocista",
+      "morph": {
+        "Cuarto de Milla": 0.9
+      }
+    },
+    "cernejas": {
+      "nombre": "Cernejas",
+      "descripcion": "Pelo largo sobre los cascos",
+      "morph": {
+        "Frisón": 0.9
+      }
+    },
+    "crinLavada": {
+      "nombre": "Crin y cola lavadas",
+      "descripcion": "Crin y cola rubias, más claras que el cuerpo",
+      "crin": "#e6d3a3"
+    },
+    "brilloMetalico": {
+      "nombre": "Brillo metálico",
+      "descripcion": "Pelo que brilla al sol, como el Akhal-Teke",
+      "brillo": true
+    },
+    "calzadoAlto": {
+      "nombre": "Calzado alto",
+      "descripcion": "Las cuatro patas blancas",
+      "marcasPatas": 3
+    },
+    "malacara": {
+      "nombre": "Malacara",
+      "descripcion": "Mancha blanca ancha en la cara",
+      "marcaCara": 3
+    }
+  },
+  "_pares": "Rasgo de cada cruza de dos razas (en orden alfabético por nombre). Un potrillo con al menos 20 % de cada una tiene 70 % de probabilidad de mostrarlo.",
+  "pares": {
+    "Akhal-Teke|Andaluz": "cuelloCisne",
+    "Akhal-Teke|Appaloosa": "brilloMetalico",
+    "Akhal-Teke|Criollo": "patasLargas",
+    "Akhal-Teke|Cuarto de Milla": "patasLargas",
+    "Akhal-Teke|Frisón": "crinLavada",
+    "Akhal-Teke|Pura Sangre Inglés": "patasLargas",
+    "Akhal-Teke|Árabe": "brilloMetalico",
+    "Andaluz|Appaloosa": "calzadoAlto",
+    "Andaluz|Criollo": "cabezaAcarnerada",
+    "Andaluz|Cuarto de Milla": "grupaPotente",
+    "Andaluz|Frisón": "cabezaAcarnerada",
+    "Andaluz|Pura Sangre Inglés": "crinLavada",
+    "Andaluz|Árabe": "cuelloCisne",
+    "Appaloosa|Criollo": "malacara",
+    "Appaloosa|Cuarto de Milla": "calzadoAlto",
+    "Appaloosa|Frisón": "cernejas",
+    "Appaloosa|Pura Sangre Inglés": "calzadoAlto",
+    "Appaloosa|Árabe": "malacara",
+    "Criollo|Cuarto de Milla": "cuerpoCompacto",
+    "Criollo|Frisón": "cuerpoCompacto",
+    "Criollo|Pura Sangre Inglés": "cuerpoCompacto",
+    "Criollo|Árabe": "crinLavada",
+    "Cuarto de Milla|Frisón": "cernejas",
+    "Cuarto de Milla|Pura Sangre Inglés": "grupaPotente",
+    "Cuarto de Milla|Árabe": "perfilConcavo",
+    "Frisón|Pura Sangre Inglés": "cernejas",
+    "Frisón|Árabe": "perfilConcavo",
+    "Pura Sangre Inglés|Árabe": "cuelloCisne"
+  },
+  "linajes": {
+    "_doc": "Linajes raros: nacen con probabilidad baja si el potrillo tiene al menos 25 % de cada raza del linaje. Se heredan con más probabilidad si un padre (o los dos) lo tiene. Suben el techo genético en dos atributos; la suma natural sigue limitada a 360.",
+    "probabilidad": 0.01,
+    "probabilidadUnPadre": 0.25,
+    "probabilidadDosPadres": 0.5,
+    "minimoSangre": 0.25,
+    "techoMaximo": 94,
+    "lista": {
+      "dorado": {
+        "nombre": "Dorado del Desierto",
+        "razas": [
+          "Árabe",
+          "Akhal-Teke"
+        ],
+        "descripcion": "Isabelino de reflejos dorados, como los Akhal-Teke de Turkmenistán",
+        "techo": [
+          3,
+          3,
+          0,
+          0,
+          0
+        ],
+        "cuerpo": "#d6a24a",
+        "crin": "#f1dfa6",
+        "rasgos": [
+          "brilloMetalico",
+          "cuelloCisne"
+        ]
+      },
+      "barroco": {
+        "nombre": "Barroco Azabache",
+        "razas": [
+          "Andaluz",
+          "Frisón"
+        ],
+        "descripcion": "Negro azabache brillante y estampa barroca",
+        "techo": [
+          0,
+          0,
+          3,
+          3,
+          0
+        ],
+        "cuerpo": "#17141a",
+        "crin": "#0d0b0e",
+        "rasgos": [
+          "cabezaAcarnerada",
+          "cernejas",
+          "brilloMetalico"
+        ]
+      },
+      "relampago": {
+        "nombre": "Relámpago",
+        "razas": [
+          "Pura Sangre Inglés",
+          "Cuarto de Milla"
+        ],
+        "descripcion": "Alazán tostado con las cuatro patas blancas",
+        "techo": [
+          3,
+          0,
+          3,
+          0,
+          0
+        ],
+        "cuerpo": "#7a2f16",
+        "crin": "#5a1f0e",
+        "rasgos": [
+          "calzadoAlto",
+          "grupaPotente"
+        ]
+      },
+      "pampa": {
+        "nombre": "Overo de la Pampa",
+        "razas": [
+          "Criollo",
+          "Appaloosa"
+        ],
+        "descripcion": "Blanco con lunares, duro como el Criollo",
+        "techo": [
+          0,
+          3,
+          0,
+          3,
+          0
+        ],
+        "cuerpo": "#e7e0d2",
+        "leopardo": true,
+        "rasgos": [
+          "malacara"
+        ]
+      }
+    }
+  }
+}

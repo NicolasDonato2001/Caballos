@@ -1,0 +1,36 @@
+{
+  "name": "caballos",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Juego de gestión, crianza y carreras de caballos — Fase 2: caballos y establo",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "runner": "node tools/runner.ts 600",
+    "typecheck": "tsc --noEmit",
+    "servidor": "node server/servidor.ts",
+    "red": "vite --host",
+    "armar": "vite build",
+    "publico": "node server/servidor.ts --juego"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.0.0",
+    "@babylonjs/loaders": "^9.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0",
+    "vite": "^8.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0"
+  }
+}

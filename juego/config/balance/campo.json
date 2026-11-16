@@ -1,0 +1,133 @@
+{
+  "_doc": "Campo 2.0 (GDD §24.4): parcela más grande y edificios que el jugador puede mover. Metros; X este, Z norte. rot en cuartos de vuelta.",
+  "ancho": 90,
+  "alto": 66,
+  "patio": {
+    "x": 0,
+    "z": -3,
+    "r": 5.5
+  },
+  "disposicionInicial": {
+    "establo": {
+      "x": -18,
+      "z": 9,
+      "rot": 0
+    },
+    "entrenamiento": {
+      "x": 17,
+      "z": 10,
+      "rot": 0
+    },
+    "recuperacion": {
+      "x": 16,
+      "z": -15,
+      "rot": 2
+    },
+    "potrero": {
+      "x": -20,
+      "z": -15,
+      "rot": 0
+    },
+    "molino": {
+      "x": -35,
+      "z": 22,
+      "rot": 0
+    }
+  },
+  "_huellas": "Rectángulo que ocupa cada pieza sin rotar: centro relativo (dx, dz) y tamaño (w, h).",
+  "huellas": {
+    "establo": {
+      "dx": 0.2,
+      "dz": -1.0,
+      "w": 20,
+      "h": 12.5
+    },
+    "entrenamiento": {
+      "dx": 2.8,
+      "dz": 0,
+      "w": 22,
+      "h": 16.5
+    },
+    "recuperacion": {
+      "dx": -1.6,
+      "dz": -2.6,
+      "w": 14.5,
+      "h": 14.5
+    },
+    "potrero": {
+      "dx": 0,
+      "dz": 0,
+      "w": 23,
+      "h": 16
+    },
+    "molino": {
+      "dx": 3.3,
+      "dz": 0.3,
+      "w": 14,
+      "h": 10
+    }
+  },
+  "naturales": [
+    {
+      "nombre": "laguna",
+      "x": 36,
+      "z": -24,
+      "r": 6.5
+    },
+    {
+      "nombre": "ombú",
+      "x": -2,
+      "z": 18,
+      "r": 4.2
+    }
+  ],
+  "_puertas": "Puerta (donde llega el camino) y frente (punto de afuera por donde entra), en coordenadas de la pieza sin rotar.",
+  "puertas": {
+    "establo": {
+      "puerta": [
+        0,
+        -5.2
+      ],
+      "frente": [
+        0,
+        -9
+      ]
+    },
+    "entrenamiento": {
+      "puerta": [
+        -5.4,
+        -5.4
+      ],
+      "frente": [
+        -8.6,
+        -8.6
+      ]
+    },
+    "recuperacion": {
+      "puerta": [
+        0,
+        -5
+      ],
+      "frente": [
+        0,
+        -10.5
+      ]
+    },
+    "potrero": {
+      "puerta": [
+        11.2,
+        6
+      ],
+      "frente": [
+        14.5,
+        6
+      ]
+    }
+  },
+  "nombre": {
+    "_doc": "Nombre del establecimiento: el primer cambio es gratis, los siguientes cuestan Gemas.",
+    "porDefecto": "El campo",
+    "largoMaximo": 28,
+    "gemasCambio": 20
+  }
+}

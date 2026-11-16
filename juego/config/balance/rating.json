@@ -1,0 +1,19 @@
+{
+  "_fuente": "GDD v0.2 §13. TrueSkill (Herbrich, Minka y Graepel, 2006) para carreras de todos contra todos, sin empates.",
+  "mu": 25,
+  "sigma": 8.333333333333334,
+  "beta": 4.166666666666667,
+  "tau": 0.08333333333333334,
+  "_parametros": "beta = σ/2 (variación de rendimiento entre carreras); tau = σ/100 (deriva para que el rating no se congele).",
+  "carrerasColocacion": 10,
+  "_visible": "ratingVisible = max(0; round(50·(μ − 3σ)))",
+  "divisiones": [
+    { "id": "bronce", "nombre": "Bronce", "desde": 0, "color": "#c08457" },
+    { "id": "plata", "nombre": "Plata", "desde": 800, "color": "#b9c3cc" },
+    { "id": "oro", "nombre": "Oro", "desde": 1100, "color": "#e3b341" },
+    { "id": "platino", "nombre": "Platino", "desde": 1350, "color": "#6fd3c7" },
+    { "id": "diamante", "nombre": "Diamante", "desde": 1550, "color": "#7fb4ff" },
+    { "id": "maestro", "nombre": "Maestro", "desde": 1750, "color": "#c792ea" },
+    { "id": "leyenda", "nombre": "Leyenda", "desde": 2000, "color": "#ff7a59" }
+  ]
+}

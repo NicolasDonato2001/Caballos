@@ -1,0 +1,153 @@
+{
+  "_doc": "Decoración del establecimiento (GDD v0.2 §11.5): objetos cosméticos de 200 a 20.000 Oro y algunos exclusivos de Gemas. Es el gasto sin fin para el Oro que sobra. Celdas de 2 m; ancho x alto en celdas antes de rotar. sobreCamino: puede ir sobre caminos (portal, tranquera, faroles). El tramo de camino se pone donde haya pasto.",
+  "celda": 2,
+  "limites": {
+    "x": [
+      -44,
+      44
+    ],
+    "z": [
+      -32,
+      32
+    ]
+  },
+  "objetos": [
+    {
+      "id": "camino",
+      "nombre": "Tramo de camino de tierra",
+      "oro": 100,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "id": "banco",
+      "nombre": "Banco de madera",
+      "oro": 200,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "id": "maceta",
+      "nombre": "Maceta con malvones",
+      "oro": 250,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "id": "farol",
+      "nombre": "Farol de campo",
+      "oro": 300,
+      "w": 1,
+      "h": 1,
+      "sobreCamino": true
+    },
+    {
+      "id": "fardos",
+      "nombre": "Pila de fardos",
+      "oro": 350,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "id": "cantero",
+      "nombre": "Cantero de flores",
+      "oro": 400,
+      "w": 2,
+      "h": 1
+    },
+    {
+      "id": "paraiso",
+      "nombre": "Árbol paraíso",
+      "oro": 500,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "id": "bebedero",
+      "nombre": "Bebedero de piedra",
+      "oro": 600,
+      "w": 2,
+      "h": 1
+    },
+    {
+      "id": "tranquera",
+      "nombre": "Tranquera criolla",
+      "oro": 800,
+      "w": 3,
+      "h": 1,
+      "sobreCamino": true
+    },
+    {
+      "id": "carreta",
+      "nombre": "Carreta antigua",
+      "oro": 1500,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "aljibe",
+      "nombre": "Aljibe",
+      "oro": 2500,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "asador",
+      "nombre": "Asador criollo",
+      "oro": 3000,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "glorieta",
+      "nombre": "Glorieta",
+      "oro": 4500,
+      "w": 3,
+      "h": 3
+    },
+    {
+      "id": "mangrullo",
+      "nombre": "Mangrullo",
+      "oro": 6000,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "fuente",
+      "nombre": "Fuente",
+      "oro": 9000,
+      "w": 3,
+      "h": 3
+    },
+    {
+      "id": "estatua",
+      "nombre": "Estatua ecuestre",
+      "oro": 14000,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "portal",
+      "nombre": "Portal de estancia",
+      "oro": 20000,
+      "w": 4,
+      "h": 1,
+      "sobreCamino": true
+    },
+    {
+      "id": "estatuaOro",
+      "nombre": "Estatua dorada",
+      "gemas": 120,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "faroles",
+      "nombre": "Faroles de hierro",
+      "gemas": 40,
+      "w": 1,
+      "h": 1,
+      "sobreCamino": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_doc": "Fase 6.5 (GDD §24.2): carga de trabajo, lesiones y herraduras. Calibrado para que quien juega normal (rotando caballos) casi nunca vea una lesión y quien corre siempre el mismo caballo sin descanso sí.",
+  "carga": {
+    "_doc": "Carga 0–100 que suma cada carrera y baja con el tiempo (también con el juego cerrado).",
+    "porCarrera500": 12,
+    "porCarrera1500": 22,
+    "maximo": 100,
+    "bajaPorHora": 10
+  },
+  "riesgo": {
+    "_doc": "Probabilidad de lesión por carrera = (base + (maximo − base)·(carga/100)²) · factor de las herraduras.",
+    "base": 0.002,
+    "maximo": 0.05,
+    "sinHerraduras": 1.5,
+    "rivales": 0.002
+  },
+  "lesion": {
+    "_doc": "El lesionado no termina (no cobra premio de puesto) y pasa más tiempo en el Centro de recuperación.",
+    "recuperacionExtraMin": 120
+  },
+  "herraduras": [
+    {
+      "id": "aluminio",
+      "nombre": "Herraduras de aluminio",
+      "descripcion": "Las de carrera de todos los días.",
+      "oro": 300,
+      "carreras": 20,
+      "factor": 1.0
+    },
+    {
+      "id": "competicion",
+      "nombre": "Plateas de competición",
+      "descripcion": "Duran el doble y bajan un poco más el riesgo. No dan velocidad.",
+      "gemas": 15,
+      "carreras": 40,
+      "factor": 0.8
+    }
+  ]
+}

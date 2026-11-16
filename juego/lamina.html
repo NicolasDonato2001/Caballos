@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Caballos · lámina de cruzas</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #efe9da; font-family: system-ui, sans-serif; }
+      #render { width: 100%; height: 100%; display: block; }
+      #rotulos { position: fixed; inset: 0; pointer-events: none; }
+      .rotulo { position: absolute; transform: translate(-50%, 0); background: #fbf7ecee; border: 1px solid #d8c99a; border-radius: 8px;
+        padding: 4px 8px; font-size: 11px; color: #213a2b; text-align: center; white-space: nowrap; }
+      .rotulo b { display: block; font-size: 12px; }
+      #barra { position: fixed; top: 8px; left: 8px; display: flex; gap: 6px; }
+      #barra button, #barra select { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid #c9b98a; background: #fffdf7; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <canvas id="render"></canvas>
+    <div id="rotulos"></div>
+    <div id="barra">
+      <button data-g="cruzas">Cruzas (rasgos)</button>
+      <button data-g="linajes">Linajes raros</button>
+      <button data-g="forma">Variación individual</button>
+      <select id="rasgo"><option value="">Comparar un rasgo…</option></select>
+      <button data-v="0">Quietos</button>
+      <button data-v="4">Trote</button>
+      <button data-v="15">Galope</button>
+    </div>
+    <script type="module" src="/src/lamina.ts"></script>
+  </body>
+</html>

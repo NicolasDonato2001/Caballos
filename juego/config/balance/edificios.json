@@ -1,0 +1,30 @@
+{
+  "_fuente": "GDD v0.2 §7, §8 y §11.6. Todos los valores son de juego y configurables.",
+  "nivelMaximo": 5,
+  "mejoras": {
+    "_nota": "Costo y duración para pasar del nivel N al N+1 (índice 0 = 1→2). Iguales para los tres edificios.",
+    "oro": [1000, 2400, 4800, 9600],
+    "minutos": [15, 60, 180, 360]
+  },
+  "establo": {
+    "techoPorNivel": [5, 8, 11, 15, 20],
+    "espaciosGratis": 5,
+    "_nota": "Precio en Oro del espacio número 6, 7, … 20.",
+    "precioEspacioOro": [400, 480, 575, 690, 830, 1000, 1200, 1440, 1730, 2075, 2490, 2990, 3590, 4300, 5160],
+    "precioEspacioGemas": 10
+  },
+  "entrenamiento": {
+    "minutos": 60,
+    "simultaneosPorNivel": [1, 2, 3, 4, 5],
+    "topePuntosPorNivel": [3, 6, 9, 12, 15],
+    "atributosSorteados": 2,
+    "probTercerAtributo": 0.35,
+    "probDosPuntos": 0.2,
+    "maximoFinal": 100
+  },
+  "recuperacion": {
+    "capacidadPorNivel": [1, 2, 3, 4, 5],
+    "minutos500": 15,
+    "minutos1500": 30
+  }
+}

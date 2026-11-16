@@ -1,0 +1,50 @@
+{
+  "_version": "sim-0.5.0",
+  "_doc": "Parámetros del simulador de carreras. Fuente: GDD v0.2 §9.3, calibrados con herramientas/balance. Cambiar solo con la batería de balance.",
+  "dt": 0.05,
+  "frameEvery": 2,
+  "laneWidth": 1.2,
+
+  "vmaxBase": 15.5, "vmaxK": 0.02281,
+  "vsBase": 13.0, "vsRes": 0.01265, "vsVel": 0.008439,
+  "amaxBase": 0.5, "amaxK": 0.1042,
+  "decBase": 1.8, "decK": 0.025,
+
+  "kickK": 0.1917,
+  "kickMinF500": 0.55, "kickMinF1500": 0.60, "kickForceF": 0.97,
+  "kickMargin": 4.0,
+  "judgeBias": 0.5307, "judgeSd": 0.5,
+
+  "pace500": [[0.10, 0.90], [0.70, 0.85], [0.88, 0.87], [1.01, 1.0]],
+  "pace1500": [[0.08, 0.10], [0.70, 0.18], [0.88, 0.35], [1.01, 0.90]],
+
+  "agrUntil": 0.55, "agrAdd500": 0.0, "agrAdd1500": 0.0, "agrRail": 1.5,
+  "conUntil": 0.70, "conSub500": 0.15, "conSub1500": 0.15, "conLateAdd": 0.40, "conMinRes": 25.0,
+
+  "accK": 0.3137,
+  "d0": 0.4357, "d1": 5.399,
+  "resCoefA": 1.30, "resCoefB": 0.00659,
+
+  "penStart": 50.0, "penMax": 0.5273, "temK": 0.8235,
+
+  "noiseSd": 0.010, "noiseTem": 0.6, "noiseTau": 1.5,
+
+  "draftMin": 0.8, "draftMax": 4.0, "draftK": 0.6739, "draftIntBase": 0.20,
+  "seekP": 1.0,
+  "anticBase": 1.0, "anticInt": 5.0,
+
+  "checkK": 0.09689, "checkTem": 0.9,
+  "blockGap": 2.9, "lookAhead": 3.2, "lookBehind": 3.0,
+  "bodyLen": 2.5, "sideGap": 0.7, "stretchWideP": 0.35,
+  "_lesion": "sim-0.5.0 (Fase 6.5): un caballo lesionado frena hasta el paso (lesionV m/s, con lesionDec m/s²), se abre hacia afuera y se retira. Ocurre entre lesionDesde y lesionHasta del recorrido. Se sortea con un generador aparte: sin lesión, la carrera es idéntica a sim-0.4.0.",
+  "lesionV": 2.2, "lesionDec": 3.0, "lesionDesde": 0.15, "lesionHasta": 0.9,
+  "decideEvery": 0.5,
+  "gapPBase": 0.20, "gapPInt": 0.70,
+  "railPBase": 0.10, "railPInt": 0.55,
+  "driftP": 0.50,
+  "latSpeed": 1.0,
+  "curveK": 0.020,
+  "wasteK": 0.04553,
+  "curves500": [[0.40, 0.72]],
+  "curves1500": [[0.12, 0.36], [0.62, 0.86]]
+}

@@ -1,0 +1,10 @@
+{
+  "_fuente": "GDD v0.2 §24.5 (Fase 7.4): apuestas de pozo común (pari-mutuel) en las carreras online, solo con Oro.",
+  "comision": 0.10,
+  "_comision": "La parte del pozo que se queda el juego: es un sumidero de Oro (§11.5). El resto se reparte entre los que acertaron.",
+  "minima": 10,
+  "maximaPorCarrera": 500,
+  "maximaPorDia": 2000,
+  "_topes": "Una apuesta por jugador y por carrera. El tope diario cuenta todo lo apostado en el día (00:00 del servidor).",
+  "_reglas": "Se apuesta a qué jugador llega primero entre los jugadores de la sala (los bots no cuentan). Si nadie acertó, se devuelve todo. Si un jugador no larga, se devuelven las apuestas hechas a él. Quien acierta nunca cobra menos de lo que apostó."
+}

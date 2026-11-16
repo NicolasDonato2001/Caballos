@@ -1,0 +1,12 @@
+{
+  "_fuente": "GDD v0.2 §15 (Fase 7.5): carreras offline con tokens firmados por el servidor.",
+  "porDia": 25,
+  "_porDia": "Tokens por día asignado: 15 de pago completo + 10 reducidos (§15). El pago lo decide el contador del límite diario de ese día al sincronizar, así que correr online y offline el mismo día no da más de 15 carreras completas.",
+  "dias": 3,
+  "_dias": "Se entregan tokens para hoy y los dos días siguientes.",
+  "venceHoras": 72,
+  "graciaHoras": 24,
+  "_gracia": "Una carrera offline se puede sincronizar hasta graciaHoras después de que venció su token (se corrió a tiempo, pero no hubo conexión).",
+  "margenRelojSeg": 300,
+  "_margenReloj": "Diferencia tolerada entre el reloj del dispositivo y el del servidor."
+}

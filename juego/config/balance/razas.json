@@ -1,0 +1,17 @@
+{
+  "_doc": "Razas (GDD v0.2 §5). Atributos en orden Vel, Res, Pot, Tem, Int.",
+  "variacionIndividual": 6,
+  "minimoNatural": 30,
+  "presupuestoNatural": 360,
+  "caballoInicial": { "raza": "Criollo", "attrs": [60, 70, 60, 70, 65] },
+  "razas": {
+    "Pura Sangre Inglés": { "perfil": [74, 60, 68, 60, 68], "techo": [90, 82, 86, 74, 78] },
+    "Árabe":              { "perfil": [62, 72, 60, 67, 69], "techo": [80, 90, 72, 88, 80] },
+    "Cuarto de Milla":    { "perfil": [68, 56, 78, 62, 66], "techo": [86, 72, 90, 80, 82] },
+    "Akhal-Teke":         { "perfil": [68, 72, 62, 62, 66], "techo": [86, 88, 78, 78, 80] },
+    "Appaloosa":          { "perfil": [67, 66, 66, 63, 68], "techo": [82, 82, 82, 82, 82] },
+    "Criollo":            { "perfil": [58, 74, 62, 74, 62], "techo": [80, 90, 76, 90, 74] },
+    "Andaluz":            { "perfil": [64, 64, 70, 62, 70], "techo": [82, 78, 86, 80, 84] },
+    "Frisón":             { "perfil": [65, 64, 72, 65, 64], "techo": [80, 80, 90, 86, 74] }
+  }
+}

@@ -1,0 +1,136 @@
+{
+ "sens_500": {
+  "Vel": 0.379,
+  "Res": 0.254,
+  "Pot": 0.431,
+  "Tem": 0.174,
+  "Int": 0.262,
+  "base": 0.142
+ },
+ "sens_seg_500": {
+  "Vel": 0.455,
+  "Res": 0.271,
+  "Pot": 0.562,
+  "Tem": 0.075,
+  "Int": 0.307
+ },
+ "razas_500": {
+  "Pura Sangre": 0.232,
+  "Árabe": 0.025,
+  "Cuarto de Milla": 0.282,
+  "Akhal-Teke": 0.075,
+  "Appaloosa": 0.102,
+  "Criollo": 0.009,
+  "Andaluz": 0.141,
+  "Frisón": 0.133
+ },
+ "estrategias_500": {
+  "Velocista": {
+   "Agresiva": 0.12,
+   "Equilibrada": 0.12,
+   "Conservadora": 0.14
+  },
+  "Fondista": {
+   "Agresiva": 0.14,
+   "Equilibrada": 0.14,
+   "Conservadora": 0.1
+  },
+  "Táctico": {
+   "Agresiva": 0.13,
+   "Equilibrada": 0.13,
+   "Conservadora": 0.11
+  },
+  "Equilibrado": {
+   "Agresiva": 0.13,
+   "Equilibrada": 0.13,
+   "Conservadora": 0.11
+  }
+ },
+ "montura_500": {
+  "Sprint": 0.101,
+  "Resistencia": 0.054,
+  "Táctica": 0.068,
+  "tiempo_medio": 33.37
+ },
+ "entreno_500": {
+  "seg": 1.96,
+  "win_entrenado": 1.0
+ },
+ "sens_1500": {
+  "Vel": 0.288,
+  "Res": 0.43,
+  "Pot": 0.133,
+  "Tem": 0.376,
+  "Int": 0.273,
+  "base": 0.128
+ },
+ "sens_seg_1500": {
+  "Vel": 0.626,
+  "Res": 1.073,
+  "Pot": 0.285,
+  "Tem": 0.885,
+  "Int": 0.56
+ },
+ "razas_1500": {
+  "Pura Sangre": 0.049,
+  "Árabe": 0.27,
+  "Cuarto de Milla": 0.017,
+  "Akhal-Teke": 0.191,
+  "Appaloosa": 0.101,
+  "Criollo": 0.256,
+  "Andaluz": 0.059,
+  "Frisón": 0.057
+ },
+ "estrategias_1500": {
+  "Velocista": {
+   "Agresiva": 0.13,
+   "Equilibrada": 0.1,
+   "Conservadora": 0.15
+  },
+  "Fondista": {
+   "Agresiva": 0.15,
+   "Equilibrada": 0.12,
+   "Conservadora": 0.11
+  },
+  "Táctico": {
+   "Agresiva": 0.13,
+   "Equilibrada": 0.12,
+   "Conservadora": 0.13
+  },
+  "Equilibrado": {
+   "Agresiva": 0.13,
+   "Equilibrada": 0.12,
+   "Conservadora": 0.13
+  }
+ },
+ "montura_1500": {
+  "Sprint": 0.125,
+  "Resistencia": 0.248,
+  "Táctica": 0.153,
+  "tiempo_medio": 108.13
+ },
+ "entreno_1500": {
+  "seg": 5.45,
+  "win_entrenado": 1.0
+ },
+ "endgame_500": {
+  "Pura Sangre": 0.268,
+  "Árabe": 0.002,
+  "Cuarto de Milla": 0.227,
+  "Akhal-Teke": 0.091,
+  "Appaloosa": 0.092,
+  "Criollo": 0.009,
+  "Andaluz": 0.154,
+  "Frisón": 0.157
+ },
+ "endgame_1500": {
+  "Pura Sangre": 0.106,
+  "Árabe": 0.197,
+  "Cuarto de Milla": 0.057,
+  "Akhal-Teke": 0.211,
+  "Appaloosa": 0.09,
+  "Criollo": 0.186,
+  "Andaluz": 0.09,
+  "Frisón": 0.062
+ }
+}

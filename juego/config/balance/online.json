@@ -1,0 +1,29 @@
+{
+  "_doc": "Carreras online (Fases 7.2–7.4, GDD §13). Dos modos: Online casual (2 a 8 jugadores, no toca el rating) y Ranked (al menos 4 jugadores, TrueSkill). Los bots completan hasta 8. Cola → emparejamiento → se revela la distancia → tiempo para elegir caballo y estrategia (y apostar) → carrera.",
+  "minJugadores": 2,
+  "maxJugadores": 8,
+  "esperaSeg": 15,
+  "_espera": "Online casual: con al menos minJugadores en la cola, se arma cuando hay maxJugadores o cuando el primero lleva esperaSeg. Juntan a todos los que esperan, sin mirar la fuerza (es para jugar entre amigos; 15/11/2026).",
+  "margenIndice": 1.5,
+  "margenPorSegundo": 0.15,
+  "_margen": "Ya no se usa en Online casual (desde el 15/11/2026 junta a todos los de la cola). Ranked usa su propio filtro.",
+  "eleccionSeg": 20,
+  "cuentaRegresivaSeg": 4,
+  "ranked": {
+    "_doc": "Fase 7.3 (GDD §13): 8 participantes con al menos 4 humanos; los bots completan. TrueSkill se actualiza solo con el orden entre humanos.",
+    "minHumanos": 4,
+    "maxJugadores": 8,
+    "esperaSeg": 20,
+    "_espera": "Con al menos minHumanos compatibles, se arma la carrera cuando hay maxJugadores o cuando el que más espera lleva esperaSeg.",
+    "ventanaRating": 100,
+    "ventanaRatingMax": 300,
+    "ventanaPorSegundo": 5,
+    "_ventana": "Rating visible ±100, que se amplía hasta ±300 con la espera (5 por segundo: el máximo a los 40 s).",
+    "fuerzaPct": 3,
+    "fuerzaPctMax": 5,
+    "fuerzaPorSegundo": 0.05,
+    "_fuerza": "Filtro secundario: mejor tiempo esperado del establo en cada distancia (regresión del simulador). Diferencia máxima 3 %, ampliable a 5 % (a los 40 s). Nunca decide resultados.",
+    "avisoSinRivalesSeg": 30,
+    "_aviso": "Después de este tiempo en la cola Ranked sin carrera, la pantalla ofrece pasar a Online casual."
+  }
+}

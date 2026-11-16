@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Caballos</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="render" touch-action="none"></canvas>
+      <div id="hud">
+        <div id="hudTop" class="hud-top">
+          <div class="hud-block"><label>Posición</label><b id="hudPos">—</b></div>
+          <div class="hud-block"><label>Restan</label><b id="hudRest">—</b></div>
+          <div class="hud-block"><label>Tiempo</label><b id="hudTime">0.0 s</b></div>
+          <div class="hud-block"><label>Carrera</label><b id="hudDist">—</b></div>
+          <div class="hud-order" id="hudOrder"></div>
+        </div>
+        <div class="hud-bottom">
+          <div class="group">
+            <button class="cam" data-c="auto">Auto</button>
+            <button class="cam" data-c="seguimiento">1 Seguimiento</button>
+            <button class="cam" data-c="lateral">2 Lateral</button>
+            <button class="cam" data-c="aerea">3 Aérea</button>
+            <button class="cam" data-c="llegada">4 Llegada</button>
+            <button class="cam" data-c="meta">5 Meta</button>
+          </div>
+          <div class="group">
+            <button class="vel" data-v="1">×1</button>
+            <button class="vel" data-v="2">×2</button>
+            <button class="vel" data-v="4">×4</button>
+            <button id="sonido" class="vel" title="Volumen">🔊</button>
+            <span id="hudFps" class="fps"></span>
+          </div>
+        </div>
+        <div id="anuncio" class="anuncio"></div>
+      </div>
+      <div id="panel" class="panel"></div>
+      <div id="ui"></div>
+      <div class="placeholder-tag">PROTOTIPO · Fase 6</div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

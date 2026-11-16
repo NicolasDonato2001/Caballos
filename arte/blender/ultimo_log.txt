@@ -1,0 +1,47 @@
+C:\Users\nicol\OneDrive\Desktop\Caballos\arte\blender\generar_caballos.py:186: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if hasattr(m, "use_nodes") and not m.use_nodes:
+[caballos] Variantes de raza creadas: ['PuraSangre', 'Arabe', 'CuartoDeMilla', 'AkhalTeke', 'Appaloosa', 'Criollo', 'Andaluz', 'Frison']
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.3\blender.shared\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.3\blender.shared\bf_intern_meshopt_bridge.dll
+16:13:28 | INFO: Starting glTF 2.0 export
+16:13:28 | INFO: Extracting primitive: Cola_grafo.001
+16:13:28 | INFO: Primitives created: 1
+16:13:28 | INFO: Extracting primitive: Crin_grafo.001
+16:13:28 | INFO: Primitives created: 1
+16:13:28 | INFO: Extracting primitive: Cuerpo_grafo.001
+16:13:28 | INFO: Primitives created: 1
+16:13:28 | INFO: Extracting primitive: Cone
+16:13:28 | INFO: Primitives created: 2
+16:13:28 | INFO: Finished glTF 2.0 export in 0.4502236843109131 s
+
+[caballos] GLB exportado: C:\Users\nicol\OneDrive\Desktop\Caballos\juego\public\modelos\caballo.glb | vértices cuerpo: 963
+00:03.000  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_00_base.png'
+00:03.047  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_01_PuraSangre.png'
+00:03.078  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_02_Arabe.png'
+00:03.125  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_03_CuartoDeMilla.png'
+00:03.172  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_04_AkhalTeke.png'
+00:03.219  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_05_Appaloosa.png'
+00:03.250  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_06_Criollo.png'
+00:03.297  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_07_Andaluz.png'
+00:03.344  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\raza_08_Frison.png'
+00:03.375  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Paso_0.png'
+00:03.422  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Paso_1.png'
+00:03.469  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Paso_2.png'
+00:03.500  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Paso_3.png'
+00:03.547  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Trote_0.png'
+00:03.594  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Trote_1.png'
+00:03.625  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Trote_2.png'
+00:03.672  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Trote_3.png'
+00:03.703  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Galope_0.png'
+00:03.750  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Galope_1.png'
+00:03.797  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Galope_2.png'
+00:03.828  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\aire_Galope_3.png'
+00:03.875  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\tres_cuartos_PuraSangre.png'
+00:03.922  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\tres_cuartos_CuartoDeMilla.png'
+00:03.953  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\tres_cuartos_Andaluz.png'
+00:04.000  render           | Saved: 'C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews\tres_cuartos_Frison.png'
+[caballos] Vistas previas en C:\Users\nicol\OneDrive\Desktop\Caballos\arte\previews
+[caballos] LISTO
+Blender 5.3.0 (hash 02f0899d78e3 built 2026-11-10 01:33:43)
+
+Blender quit

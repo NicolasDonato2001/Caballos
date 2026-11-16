@@ -1,0 +1,19 @@
+{
+  "_fuente": "GDD v0.2 §12.3 (mercado entre jugadores) y §12.4 (subastas). Fase 8.",
+  "maxPublicaciones": 3,
+  "duracionVentaHoras": 24,
+  "duracionesSubastaMin": [30, 60, 180, 480, 1440],
+  "precioMinimo": 0.5,
+  "precioMaximo": 3,
+  "_precio": "El precio (o la puja) tiene que estar entre el 50 % y el 300 % del precio sugerido (§12.2), para frenar el traspaso de Oro entre cuentas.",
+  "comision": 0.05,
+  "_comision": "Solo si se vende; la paga el vendedor (sale de lo que cobra). Es un sumidero de Oro.",
+  "comprasPorSemana": 3,
+  "_compras": "Máximo de compras por cuenta cada 7 días, contando las subastas ganadas y las que se van ganando (§12.3).",
+  "incrementoMinimo": 0.05,
+  "incrementoMinimoOro": 50,
+  "_incremento": "Cada puja supera a la anterior en al menos 5 % o 50 Oro, lo que sea mayor.",
+  "extensionSeg": 120,
+  "_extension": "Una puja en los últimos 2 minutos estira la subasta hasta 2 minutos después de esa puja, para que no se gane en el último segundo sin respuesta.",
+  "redondeo": 10
+}

@@ -1,0 +1,11 @@
+{
+  "_doc": "Crianza (GDD v0.2 §10). Herencia por atributo: 55 % el valor mayor de los padres, variación uniforme −2…+2, límite [30; techo del potrillo], suma máxima 360.",
+  "costoOro": 500,
+  "horasCruza": 8,
+  "horasCrecimiento": 24,
+  "cruzasActivas": 1,
+  "probabilidadMayor": 0.55,
+  "variacion": 2,
+  "variacionPredisposicion": 0.10,
+  "variacionForma": 0.15
+}

@@ -1,0 +1,21 @@
+{
+  "_doc": "Aspecto (skins) que se compran con Gemas (GDD §24.1). Solo cambian cómo se ve: no tocan atributos ni se heredan. Una compra queda para todo el establo.",
+  "objetos": [
+    { "id": "crinDorada", "tipo": "crin", "nombre": "Crin y cola doradas", "color": "#d9b45a", "gemas": 20 },
+    { "id": "crinPlateada", "tipo": "crin", "nombre": "Crin y cola plateadas", "color": "#d6d8da", "gemas": 20 },
+    { "id": "crinAzabache", "tipo": "crin", "nombre": "Crin y cola azabache", "color": "#141414", "gemas": 15 },
+    { "id": "crinRojiza", "tipo": "crin", "nombre": "Crin y cola rojizas", "color": "#8c3a1c", "gemas": 15 },
+    { "id": "cascosNegros", "tipo": "cascos", "nombre": "Cascos lustrados", "color": "#0e0e0e", "gemas": 10 },
+    { "id": "cascosDorados", "tipo": "cascos", "nombre": "Cascos dorados", "color": "#c9a23a", "gemas": 30 },
+    { "id": "mantaBordo", "tipo": "manta", "nombre": "Manta bordó", "color": "#6e1f2b", "gemas": 25 },
+    { "id": "mantaAzul", "tipo": "manta", "nombre": "Manta azul", "color": "#1f3f75", "gemas": 25 },
+    { "id": "mantaVerde", "tipo": "manta", "nombre": "Manta verde inglés", "color": "#1f4d36", "gemas": 25 },
+    { "id": "mantaCelesteBlanca", "tipo": "manta", "nombre": "Manta celeste", "color": "#78b4dc", "gemas": 30 },
+    { "id": "mantaDorada", "tipo": "manta", "nombre": "Manta de gala dorada", "color": "#b8922f", "gemas": 40 },
+    { "id": "monturaNegra", "tipo": "montura", "nombre": "Cuero negro", "color": "#1c1a18", "gemas": 15 },
+    { "id": "monturaBlanca", "tipo": "montura", "nombre": "Cuero blanco", "color": "#e9e3d6", "gemas": 20 },
+    { "id": "monturaRoja", "tipo": "montura", "nombre": "Cuero rojo", "color": "#8e2420", "gemas": 20 },
+    { "id": "monturaDorada", "tipo": "montura", "nombre": "Cuero dorado", "color": "#b98f2c", "gemas": 35 }
+  ],
+  "monturaPorDefecto": "#6b3f22"
+}
